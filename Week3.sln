@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3", "Week3\Week3.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginFormRefactored", "LoginFormRefactored\LoginFormRefactored.csproj", "{89A7C888-D341-4637-B5DB-DA867D2A60B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecentageCalculator", "PrecentageCalculator\PrecentageCalculator.csproj", "{16F5EB18-74A7-4448-AF39-E0BF37F2955B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{89A7C888-D341-4637-B5DB-DA867D2A60B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A7C888-D341-4637-B5DB-DA867D2A60B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89A7C888-D341-4637-B5DB-DA867D2A60B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F5EB18-74A7-4448-AF39-E0BF37F2955B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F5EB18-74A7-4448-AF39-E0BF37F2955B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F5EB18-74A7-4448-AF39-E0BF37F2955B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F5EB18-74A7-4448-AF39-E0BF37F2955B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
