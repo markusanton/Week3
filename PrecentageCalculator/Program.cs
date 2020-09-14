@@ -17,7 +17,24 @@ namespace PrecentageCalculator
             UserScore = Int32.Parse(Console.ReadLine());
 
             Result = ((UserScore * 100) / Maximum);
-            Console.WriteLine($"You scored {Result}%");
+
+            if (Result >= 90)
+            {
+                Console.WriteLine("Your grade is 5");
+            }
+            else if (Result >= 80)
+            {
+                Console.WriteLine("Your grade is 4");
+            }
+            else if (Result >= 61)
+            {
+                Console.WriteLine("Your grade is 3");
+            }
+            else
+            {
+                Console.WriteLine("Your grade is 2");
+            }
+
         }
     }
 }
